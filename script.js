@@ -3,7 +3,7 @@ function validateSyntax() {
 // Validation logic goes here
     let result = ''; // Placeholder for validation result
 
-    //Expressing the format of a valid input field.
+//Expressing the format of a valid input field.
 let check = /^pet_[a-zA-Z0-9]+$/;
 
 // Statement to check validator
