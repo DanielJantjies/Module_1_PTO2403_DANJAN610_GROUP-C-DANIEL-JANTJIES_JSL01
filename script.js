@@ -6,14 +6,14 @@ function validateSyntax() {
     //Expressing the format of a valid input field.
 let check = /^pet_[a-zA-Z0-9]+$/;
 
-//Statement to check validator
+// Statement to check validator
 if (check.test(input)){
-    result = "Valid Syntax \u{1F7E2}"; // 
+    result = "Valid Syntax \u{1F7E2}"; 
 }else {
-// 
+
     result = "Invalid Syntax \ud83d\udd34";
 }
-
+// Check if input starts with 'pet_' and followed by Alphanumeric Characters
 document.getElementById('result').innerText = result; 
 
 }
